@@ -94,7 +94,7 @@ export function SshBruteForceMonitorPanel() {
 
     async function fetchThreats() {
       try {
-        const response = await fetch("http://127.0.0.1:8000/api/monitor/ssh/active");
+        const response = await fetch("https://secberg-api.onrender.com/api/monitor/ssh/active");
         if (response.ok) {
           const data = await response.json();
           setActiveThreats(data.threats || []);

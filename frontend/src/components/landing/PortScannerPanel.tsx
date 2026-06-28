@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip as RechartsTooltip } from "recharts";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://secberg-api.onrender.com";
 
 type SafetyVerdict = "idle" | "approved" | "blocked";
 

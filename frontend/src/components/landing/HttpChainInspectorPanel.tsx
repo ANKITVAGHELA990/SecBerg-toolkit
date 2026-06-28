@@ -22,7 +22,7 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { BarChart, Bar, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer, CartesianGrid } from "recharts";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://secberg-api.onrender.com";
 
 type FlagStatus = "pass" | "warn" | "fail";
 
