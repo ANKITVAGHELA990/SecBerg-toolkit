@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Identify vulnerabilities and analyze cryptographic structures." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "google-site-verification", content: "google51724ffab18df20e" },
+      { name: "google-site-verification", content: "google51724ffab18df20e.html" },
     ],
     links: [
       {
